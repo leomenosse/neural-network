@@ -82,4 +82,15 @@ public class CSV {
         return set.size();
     }
 
+    public int[][] getDados() {
+        return dados;
+    }
+
+    public int getQtdAtributos() {
+        return qtdAtributos;
+    }
+
+    public int getQtdClasses() {
+        return qtdClasses;
+    }
 }
